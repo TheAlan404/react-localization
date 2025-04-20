@@ -1,6 +1,6 @@
 {
     "name": "@alan404/react-localization",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "exports": {
@@ -23,5 +23,12 @@
     "devDependencies": {
         "@types/react": "^19.1.2",
         "typescript": "^5.0.0"
-    }
+    },
+    "bugs": {
+        "url": "https://github.com/TheAlan404/react-localization/issues"
+    },
+    "repository": {
+        "url": "https://github.com/TheAlan404/react-localization.git"
+    },
+    "keywords": ["react", "i18n", "translation", "localization", "inline"]
 }
