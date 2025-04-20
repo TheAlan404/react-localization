@@ -1,0 +1,20 @@
+{
+    "extends": "../../tsconfig.base.json",
+    "compilerOptions": {
+        "composite": true,
+        "declaration": true,
+        "declarationMap": true,
+        "outDir": "dist",
+        "jsx": "react-jsx",
+        "paths": {
+            "@alan404/react-localization/lang": [
+                "./lang/lang.d.ts"
+            ]
+        },
+        "tsBuildInfoFile": null,
+    },
+    "include": [
+        "src",
+        "lang/lang.d.ts"
+    ]
+}

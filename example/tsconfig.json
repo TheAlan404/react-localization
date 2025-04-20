@@ -1,0 +1,18 @@
+{
+    "extends": "../tsconfig.base.json",
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "moduleResolution": "bundler",
+        "target": "ESNext",
+        "module": "ESNext",
+        "strict": true,
+        "paths": {
+            "@alan404/react-localization": [
+                "../packages/react-localization/src/index.ts"
+            ],
+            "@alan404/react-localization/lang": [
+                "../packages/react-localization/lang/lang.d.ts"
+            ]
+        }
+    }
+}

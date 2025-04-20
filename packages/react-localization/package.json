@@ -1,0 +1,26 @@
+{
+    "name": "@alan404/react-localization",
+    "version": "0.1.0",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/src/index.mjs",
+            "require": "./dist/src/index.js",
+            "types": "./dist/src/index.d.ts"
+        },
+        "./lang": {
+            "types": "./dist/src/lang.d.ts"
+        }
+    },
+    "scripts": {
+        "build": "tsc -b"
+    },
+    "dependencies": {
+        "react": "^18.0.0"
+    },
+    "devDependencies": {
+        "@types/react": "^19.1.2",
+        "typescript": "^5.0.0"
+    }
+}
