@@ -1,6 +1,6 @@
 {
     "name": "@alan404/react-localization",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "main": "dist/src/index.js",
     "types": "dist/src/index.d.ts",
     "exports": {
@@ -18,12 +18,12 @@
     "scripts": {
         "build": "tsc -b"
     },
-    "dependencies": {
-        "react": "^18.0.0"
-    },
     "devDependencies": {
         "@types/react": "^19.1.2",
         "typescript": "^5.8.3"
+    },
+    "peerDependencies": {
+        "react": ">=17.0.0"
     },
     "bugs": {
         "url": "https://github.com/TheAlan404/react-localization/issues"
