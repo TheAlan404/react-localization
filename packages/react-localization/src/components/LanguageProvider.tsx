@@ -1,7 +1,7 @@
-import { Lang } from "@alan404/react-localization/lang";
-import { useUncontrolled } from "../utils/useUncontrolled";
-import { PropsWithChildren } from "react";
-import { LanguageContext } from "../contexts/LanguageContext";
+import type { Lang } from "@alan404/react-localization/lang";
+import type { PropsWithChildren } from "react";
+import { useUncontrolled } from "../utils/useUncontrolled.js";
+import { LanguageContext } from "../contexts/LanguageContext.js";
 
 export const LanguageProvider = ({
     language: _language,

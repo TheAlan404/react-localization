@@ -11,6 +11,7 @@
                 "./lang/lang.d.ts"
             ]
         },
+        "verbatimModuleSyntax": true,
         "tsBuildInfoFile": null,
     },
     "include": [

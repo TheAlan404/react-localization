@@ -1,6 +1,6 @@
-import { Lang } from "@alan404/react-localization/lang";
-import { Fragment, ReactNode } from "react";
-import { useLanguage } from "../hooks/useLanguage";
+import type { Lang } from "@alan404/react-localization/lang";
+import { Fragment, type ReactNode } from "react";
+import { useLanguage } from "../hooks/useLanguage.js";
 
 export type LocalizedStringsMap = {
     [language in Lang]: string;

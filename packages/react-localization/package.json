@@ -1,19 +1,20 @@
 {
     "name": "@alan404/react-localization",
-    "version": "0.1.1",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
+    "version": "0.1.2",
+    "main": "dist/src/index.js",
+    "types": "dist/src/index.d.ts",
     "exports": {
         ".": {
-            "import": "./dist/src/index.mjs",
-            "require": "./dist/src/index.js",
+            "import": "./dist/src/index.js",
             "types": "./dist/src/index.d.ts"
         },
         "./lang": {
             "types": "./dist/src/lang.d.ts"
         }
     },
-    "files": ["dist"],
+    "files": [
+        "dist"
+    ],
     "scripts": {
         "build": "tsc -b"
     },
@@ -22,7 +23,7 @@
     },
     "devDependencies": {
         "@types/react": "^19.1.2",
-        "typescript": "^5.0.0"
+        "typescript": "^5.8.3"
     },
     "bugs": {
         "url": "https://github.com/TheAlan404/react-localization/issues"
@@ -30,5 +31,11 @@
     "repository": {
         "url": "https://github.com/TheAlan404/react-localization.git"
     },
-    "keywords": ["react", "i18n", "translation", "localization", "inline"]
+    "keywords": [
+        "react",
+        "i18n",
+        "translation",
+        "localization",
+        "inline"
+    ]
 }
